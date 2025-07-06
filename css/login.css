@@ -1,0 +1,144 @@
+/* Login Page Specific Styles */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+  }
+
+  .login-card {
+    background-color: var(--card-color);
+    border-radius: 10px;
+    padding: 2.5rem;
+    width: 100%;
+    max-width: 400px;
+    border-top: 5px solid var(--accent-color);
+  }
+
+  .login-card h2 {
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+    position: relative;
+    padding-bottom: 10px;
+  }
+
+  
+
+  .login-card h2 i {
+    margin-right: 10px;
+    color: var(--highlight-color);
+  }
+
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+
+  .form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: var(--text-color);
+    font-weight: 500;
+  }
+
+  .form-group input {
+    width: 100%;
+    padding: 0.8rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .form-group input:focus {
+    border-color: var(--accent-color);
+    outline: none;
+  }
+
+  .login-btn {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    font-size: 1rem;
+  }
+
+  .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    margin-top: 0.5rem;
+    justify-content: flex-start;
+  }
+
+  .remember-me input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid var(--accent-color);
+    border-radius: 3px;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+    outline: none;
+    flex-shrink: 0;
+  }
+
+  .remember-me input[type="checkbox"]:checked {
+    background-color: var(--accent-color);
+  }
+
+  .remember-me input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+
+  .remember-me input[type="checkbox"]:hover {
+    border-color: var(--highlight-color);
+  }
+
+  .remember-label {
+    font-size: 0.95rem;
+    color: var(--text-color);
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+    display: inline-block;
+    line-height: 18px;
+  }
+
+  .error-message {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 0.8rem;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    border-left: 4px solid #f5c6cb;
+  }
+
+  .back-link {
+    text-align: center;
+    margin-top: 1.5rem;
+  }
+
+  .back-link a {
+    text-decoration: none;
+  }
+
+  .back-link a:hover {
+    text-decoration: none;
+  }
+
+  /* Override form-actions for login pages */
+  .form-card .form-actions {
+    justify-content: center;
+    margin-top: 1rem;
+  }

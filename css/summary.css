@@ -1,0 +1,16 @@
+/* Summary Styles - Specific styling for summary cards */
+
+/* Summary-specific content styling */
+.summary-preview {
+    /* Additional styling for summary preview text */
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+}
+
+/* Styles moved to common.css - Empty State, Generation Progress, Spinner */
+
+/* Filter Badge - uses common.css styles */
+
+/* Message styles moved to common.css - Warning, Success, Error Messages */

@@ -1,0 +1,295 @@
+/* Enhanced Form Elements Styles */
+
+/* Form Group */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.form-group label i {
+    margin-right: 0.5rem;
+    color: var(--highlight-color);
+}
+
+/* Text Inputs */
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="password"],
+.form-group textarea:not(.note-editor) {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+}
+
+.form-group input:focus,
+.form-group textarea:not(.note-editor):focus {
+    border-color: var(--highlight-color);
+    background-color: #fff;
+    outline: none;
+}
+
+/* Enhanced Select Dropdown */
+.custom-select-container {
+    position: relative;
+    width: 100%;
+}
+
+.custom-select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    padding-right: 2.5rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.custom-select:focus {
+    border-color: var(--highlight-color);
+    background-color: #fff;
+    outline: none;
+}
+
+.custom-select-container::after {
+    content: '\f078';
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--secondary-color);
+    pointer-events: none;
+    font-size: 0.8rem;
+}
+
+.custom-select-container:hover::after {
+    color: var(--highlight-color);
+}
+
+
+
+/* Styling the select options (works in Firefox) */
+.custom-select option {
+    padding: 10px;
+    background-color: white;
+    color: var(--text-color);
+}
+
+/* For Webkit browsers like Chrome/Safari */
+.custom-select::-ms-expand {
+    display: none;
+}
+
+/* Hover effect */
+.custom-select:hover {
+    border-color: #ccc;
+}
+
+/* Custom Select with Icons */
+.select-with-icons {
+    position: relative;
+}
+
+.select-with-icons select {
+    padding-left: 2.5rem;
+}
+
+.select-with-icons i {
+    position: absolute;
+    left: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--secondary-color);
+    pointer-events: none;
+}
+
+.select-with-icons select:focus + i {
+    color: var(--highlight-color);
+}
+
+/* Enhanced Dropdown */
+.enhanced-dropdown {
+    position: relative;
+    width: 100%;
+}
+
+.enhanced-dropdown-btn {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    color: var(--text-color);
+    text-align: left;
+}
+
+.enhanced-dropdown-btn i.dropdown-icon {
+    margin-left: auto;
+    color: var(--secondary-color);
+}
+
+.enhanced-dropdown-btn.active {
+    border-color: var(--highlight-color);
+    background-color: #fff;
+}
+
+.enhanced-dropdown-btn.active i.dropdown-icon {
+    color: var(--highlight-color);
+}
+
+.enhanced-dropdown-menu {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    max-height: 250px;
+    overflow-y: auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+    display: none;
+}
+
+.enhanced-dropdown-menu.show {
+    display: block;
+}
+
+.enhanced-dropdown-item {
+    padding: 0.8rem 1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.enhanced-dropdown-item:hover {
+    background-color: #f5f5f5;
+}
+
+.enhanced-dropdown-item.active {
+    background-color: rgba(232, 135, 30, 0.1);
+    color: var(--highlight-color);
+    font-weight: 500;
+}
+
+.enhanced-dropdown-item i {
+    margin-right: 0.8rem;
+    width: 16px;
+    opacity: 0;
+}
+
+.enhanced-dropdown-item.active i {
+    opacity: 1;
+    color: var(--highlight-color);
+}
+
+.enhanced-dropdown-item.placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+/* Module Icons */
+.module-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: var(--accent-color);
+    color: white;
+    margin-right: 0.8rem;
+    font-size: 0.8rem;
+}
+
+/* Form Buttons */
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.btn {
+    padding: 0.7rem 1.2rem;
+    border-radius: 8px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border: none;
+}
+
+.btn i {
+    font-size: 0.9rem;
+}
+
+.btn-primary {
+    background-color: var(--highlight-color);
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-color);
+}
+
+.btn-secondary {
+    background-color: #f1f3f5;
+    color: var(--text-color);
+}
+
+.btn-secondary:hover {
+    background-color: #e9ecef;
+}
+
+/* Scrollbar Styling for Dropdowns */
+.enhanced-dropdown-menu::-webkit-scrollbar {
+    width: 8px;
+}
+
+.enhanced-dropdown-menu::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+
+.enhanced-dropdown-menu::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 4px;
+}
+
+.enhanced-dropdown-menu::-webkit-scrollbar-thumb:hover {
+    background: #aaa;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .form-buttons {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}

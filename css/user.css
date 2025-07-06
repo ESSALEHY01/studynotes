@@ -1,0 +1,134 @@
+/* User Dashboard Styles */
+
+/* Header Modifications */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-name {
+    color: var(--light-text);
+    font-weight: 500;
+}
+
+.user-name i {
+    margin-right: 5px;
+}
+
+.logout-btn {
+    color: var(--light-text);
+    text-decoration: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.logout-btn:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Dashboard Layout Overrides */
+.dashboard-container {
+    display: flex;
+    gap: 2rem;
+    min-height: 70vh;
+}
+
+.sidebar {
+    width: 250px;
+    background-color: var(--card-color);
+    border-radius: 10px;
+    padding: 1.5rem 0;
+}
+
+.sidebar-menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-menu a {
+    padding: 0.8rem 1.5rem;
+    color: var(--text-color);
+    text-decoration: none;
+    border-left: 3px solid transparent;
+}
+
+.sidebar-menu a i {
+    width: 20px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.sidebar-menu a:hover {
+    background-color: rgba(101, 53, 15, 0.05);
+    border-left-color: var(--accent-color);
+}
+
+.sidebar-menu a.active {
+    background-color: rgba(101, 53, 15, 0.1);
+    border-left-color: var(--primary-color);
+    color: var(--primary-color);
+    font-weight: 500;
+}
+
+/* Button Styling */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    background-color: var(--highlight-color);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.btn i {
+    margin-right: 5px;
+}
+
+.btn:hover {
+    background-color: var(--primary-color);
+}
+
+/* Slim buttons - Using standardized style from style.css */
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+    .dashboard-container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        margin-bottom: 1.5rem;
+        padding: 0.5rem 0;
+    }
+
+    .sidebar-menu {
+        flex-direction: row;
+        overflow-x: auto;
+        padding: 0.5rem;
+    }
+
+    .sidebar-menu a {
+        border-left: none;
+        border-bottom: 3px solid transparent;
+        white-space: nowrap;
+    }
+
+    .sidebar-menu a:hover,
+    .sidebar-menu a.active {
+        border-left-color: transparent;
+        border-bottom-color: var(--primary-color);
+    }
+}

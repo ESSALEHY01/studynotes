@@ -1,0 +1,1874 @@
+[2025-05-15 16:02:16] Generating summary for note: test
+Data: Array
+(
+    [note_id] => 5
+    [max_length] => 100
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:02:16] Sending request to GitHub API
+Data: Array
+(
+    [endpoint] => https://api.github.com/repos/your_github_username/your_github_repo/issues
+    [issue_title] => AI Request: Create a concise summary of the following study no...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:02:17] GitHub API Error
+Data: Array
+(
+    [status_code] => 401
+    [response] => {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:02:17] Failed to generate summary
+Data: Array
+(
+    [note_id] => 5
+    [note_title] => test
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:02:45] Generating quiz for note: test
+Data: Array
+(
+    [note_id] => 5
+    [num_questions] => 18
+    [difficulty] => easy
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:02:45] Sending request to GitHub API
+Data: Array
+(
+    [endpoint] => https://api.github.com/repos/your_github_username/your_github_repo/issues
+    [issue_title] => AI Request: Based on the following study note titled 'test', g...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:02:45] GitHub API Error
+Data: Array
+(
+    [status_code] => 401
+    [response] => {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:02:46] Failed to generate quiz questions
+Data: Array
+(
+    [note_id] => 5
+    [note_title] => test
+    [difficulty] => easy
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:39:26] Sending request to GitHub API
+Data: Array
+(
+    [endpoint] => https://api.github.com/repos/studynotes-ai/ai-responses/issues
+    [issue_title] => AI Request: Create a concise summary of the following study no...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:39:27] GitHub API Error
+Data: Array
+(
+    [status_code] => 404
+    [response] => {"message":"Not Found","documentation_url":"https://docs.github.com/rest/issues/issues#create-an-issue","status":"404"}
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:39:27] Sending request to GitHub API
+Data: Array
+(
+    [endpoint] => https://api.github.com/repos/studynotes-ai/ai-responses/issues
+    [issue_title] => AI Request: Based on the following study note titled 'Test Not...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:39:28] GitHub API Error
+Data: Array
+(
+    [status_code] => 404
+    [response] => {"message":"Not Found","documentation_url":"https://docs.github.com/rest/issues/issues#create-an-issue","status":"404"}
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:39:29] Sending request to GitHub API
+Data: Array
+(
+    [endpoint] => https://api.github.com/repos/studynotes-ai/ai-responses/issues
+    [issue_title] => AI Request: Create a concise summary of the following study no...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:39:30] GitHub API Error
+Data: Array
+(
+    [status_code] => 404
+    [response] => {"message":"Not Found","documentation_url":"https://docs.github.com/rest/issues/issues#create-an-issue","status":"404"}
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:39:30] Sending request to GitHub API
+Data: Array
+(
+    [endpoint] => https://api.github.com/repos/studynotes-ai/ai-responses/issues
+    [issue_title] => AI Request: Based on the following study note titled 'Test Not...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:39:31] GitHub API Error
+Data: Array
+(
+    [status_code] => 404
+    [response] => {"message":"Not Found","documentation_url":"https://docs.github.com/rest/issues/issues#create-an-issue","status":"404"}
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:42:20] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 16:42:20] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Create a concise summary of the following study note titled 'Test Note'. The summary should capture ...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:42:20] Generated fallback summary
+Data: Array
+(
+    [summary_length] => 374
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:42:20] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 16:42:20] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Based on the following study note titled 'Test Note', generate 3 easy difficulty quiz questions with...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:43:00] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 16:43:00] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Create a concise summary of the following study note titled 'Test Note'. The summary should capture ...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:43:00] Generated fallback summary
+Data: Array
+(
+    [summary_length] => 374
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:43:00] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 16:43:00] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Based on the following study note titled 'Test Note', generate 3 easy difficulty quiz questions with...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:44:24] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 16:44:24] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Create a concise summary of the following study note titled 'Test Note'. The summary should capture ...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:44:24] Generated fallback summary
+Data: Array
+(
+    [summary_length] => 374
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 16:44:24] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 16:44:24] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Based on the following study note titled 'Test Note', generate 3 easy difficulty quiz questions with...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Starting generate_summary function
+Data: Array
+(
+    [note_title] => Test Note
+    [max_length] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Calling AI service: deepseek
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Create a concise summary of the following study note titled 'Test Note'. The summary should capture ...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Generated fallback summary
+Data: Array
+(
+    [summary_length] => 374
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] DeepSeek API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => This is an automatically generated placeholder summary for "Test Note". The AI service was unable to
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Starting generate_quiz function
+Data: Array
+(
+    [note_title] => Test Note
+    [num_questions] => 3
+    [difficulty] => easy
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Calling AI service: deepseek
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Based on the following study note titled 'Test Note', generate 3 easy difficulty quiz questions with...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] DeepSeek API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] No response received from AI service
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Using fallback quiz generation as last resort
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => generate quiz questions for note titled 'Test Note'...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:02:13] Generated fallback quiz
+Data: Array
+(
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:28] Generating summary for note: test
+Data: Array
+(
+    [note_id] => 5
+    [max_length] => 100
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:28] Starting generate_summary function
+Data: Array
+(
+    [note_title] => test
+    [max_length] => 100
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:28] Calling AI service: deepseek
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:28] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:28] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Create a concise summary of the following study note titled 'test'. The summary should capture the k...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:28] Generated fallback summary
+Data: Array
+(
+    [summary_length] => 369
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:28] DeepSeek API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => This is an automatically generated placeholder summary for "test". The AI service was unable to gene
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:28] Successfully generated summary
+Data: Array
+(
+    [note_id] => 5
+    [summary_length] => 98
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:59] Generating summary for note: test
+Data: Array
+(
+    [note_id] => 5
+    [max_length] => 500
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:59] Starting generate_summary function
+Data: Array
+(
+    [note_title] => test
+    [max_length] => 500
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:59] Calling AI service: deepseek
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:59] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:59] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Create a concise summary of the following study note titled 'test'. The summary should capture the k...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:59] Generated fallback summary
+Data: Array
+(
+    [summary_length] => 369
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:59] DeepSeek API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => This is an automatically generated placeholder summary for "test". The AI service was unable to gene
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:04:59] Successfully generated summary
+Data: Array
+(
+    [note_id] => 5
+    [summary_length] => 369
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] Generating quiz for note: test
+Data: Array
+(
+    [note_id] => 5
+    [num_questions] => 5
+    [difficulty] => medium
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] Starting generate_quiz function
+Data: Array
+(
+    [note_title] => test
+    [num_questions] => 5
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] Calling AI service: deepseek
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Based on the following study note titled 'test', generate 5 medium difficulty quiz questions with an...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] DeepSeek API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] No response received from AI service
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] Using fallback quiz generation as last resort
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => generate quiz questions for note titled 'test'...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] Generated fallback quiz
+Data: Array
+(
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-05-15 19:05:46] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 5
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] Generating quiz for note: test
+Data: Array
+(
+    [note_id] => 5
+    [num_questions] => 5
+    [difficulty] => medium
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] Starting generate_quiz function
+Data: Array
+(
+    [note_title] => test
+    [num_questions] => 5
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] Calling AI service: deepseek
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] Using fallback mode directly as configured
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => Based on the following study note titled 'test', generate 5 medium difficulty quiz questions with an...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] DeepSeek API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] No response received from AI service
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] Using fallback quiz generation as last resort
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => generate quiz questions for note titled 'test'...
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] Generated fallback quiz
+Data: Array
+(
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 15:43:51] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 5
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:08:46] Generating quiz for note: test
+Data: Array
+(
+    [note_id] => 5
+    [num_questions] => 5
+    [difficulty] => medium
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:08:46] Starting generate_quiz function
+Data: Array
+(
+    [note_title] => test
+    [num_questions] => 5
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:08:46] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-22 16:08:46] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:08:51] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:08:51] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => [
+    {"question": "Quel est le rôle principal d'un système d'exploitation dans un ordinateur?", "
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:08:51] Received response, attempting to parse
+--------------------------------------------------------------------------------
+[2025-05-22 16:08:51] Successfully parsed response as JSON
+--------------------------------------------------------------------------------
+[2025-05-22 16:08:51] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 5
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:13] Generating summary for note: test
+Data: Array
+(
+    [note_id] => 5
+    [max_length] => 100
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:13] Starting generate_summary function
+Data: Array
+(
+    [note_title] => test
+    [max_length] => 100
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:13] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:13] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:15] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:15] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => Un système d'exploitation gère les programmes et le matériel. Android domine (43%), suivi de Wind
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:15] Successfully generated summary
+Data: Array
+(
+    [note_id] => 5
+    [summary_length] => 98
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:24] Generating summary for note: test
+Data: Array
+(
+    [note_id] => 5
+    [max_length] => 500
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:24] Starting generate_summary function
+Data: Array
+(
+    [note_title] => test
+    [max_length] => 500
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:24] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:24] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:25] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 429
+    [response] => {"error":{"code":"RateLimitReached","message":"Rate limit of 1 per 60s exceeded for UserByModelByMinute. Please wait 49 seconds before retrying.","details":"Rate limit of 1 per 60s exceeded for UserByModelByMinute. Please wait 49 seconds before retrying."}}
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:25] Grok 3 API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:10:25] Failed to generate summary
+Data: Array
+(
+    [note_id] => 5
+    [note_title] => test
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:15:54] Generating quiz for note: web evolution
+Data: Array
+(
+    [note_id] => 6
+    [num_questions] => 10
+    [difficulty] => medium
+    [content_length] => 2934
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:15:54] Starting generate_quiz function
+Data: Array
+(
+    [note_title] => web evolution
+    [num_questions] => 10
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:15:54] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-22 16:15:54] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:16:00] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:16:00] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => [
+    {"question": "Quel navigateur web a été le premier à connaître une croissance exponentiell
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:16:00] Received response, attempting to parse
+--------------------------------------------------------------------------------
+[2025-05-22 16:16:00] Successfully parsed response as JSON
+--------------------------------------------------------------------------------
+[2025-05-22 16:16:00] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 6
+    [question_count] => 10
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:35:19] Generating summary for note: test
+Data: Array
+(
+    [note_id] => 5
+    [max_length] => 500
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:35:19] Starting generate_summary function
+Data: Array
+(
+    [note_title] => test
+    [max_length] => 500
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:35:19] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-22 16:35:19] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:35:23] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:35:23] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => Le système d'exploitation est le logiciel clé d'un ordinateur, gérant les programmes et servant d
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:35:23] Successfully generated summary
+Data: Array
+(
+    [note_id] => 5
+    [summary_length] => 497
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:41:44] Generating quiz for note: web evolution
+Data: Array
+(
+    [note_id] => 6
+    [num_questions] => 5
+    [difficulty] => medium
+    [content_length] => 2934
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:41:44] Starting generate_quiz function
+Data: Array
+(
+    [note_title] => web evolution
+    [num_questions] => 5
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:41:44] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-22 16:41:44] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:41:55] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:41:55] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => [
+    {"question": "Quel navigateur web a marqué le début de la croissance exponentielle du World 
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 16:41:55] Received response, attempting to parse
+--------------------------------------------------------------------------------
+[2025-05-22 16:41:55] Successfully parsed response as JSON
+--------------------------------------------------------------------------------
+[2025-05-22 16:41:55] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 6
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:17:11] Generating quiz for note: web evolution
+Data: Array
+(
+    [note_id] => 6
+    [num_questions] => 8
+    [difficulty] => medium
+    [content_length] => 2934
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:17:11] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => web evolution
+    [num_questions] => 8
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:17:11] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-22 17:17:11] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:17:18] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:17:18] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => [
+    {
+        "question": "Which browser was the most widely used before being overtaken by Netsca
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:17:18] Received response, attempting to parse
+--------------------------------------------------------------------------------
+[2025-05-22 17:17:18] Successfully parsed response as JSON
+--------------------------------------------------------------------------------
+[2025-05-22 17:17:18] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 6
+    [question_count] => 8
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:18:42] Generating quiz for note: web evolution
+Data: Array
+(
+    [note_id] => 6
+    [num_questions] => 12
+    [difficulty] => hard
+    [content_length] => 2934
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:18:42] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => web evolution
+    [num_questions] => 12
+    [difficulty] => hard
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:18:42] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-22 17:18:42] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:18:52] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:18:52] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => [
+    {
+        "question": "Which browser was the most widely used before being overtaken by Netsca
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 17:18:52] Received response, attempting to parse
+--------------------------------------------------------------------------------
+[2025-05-22 17:18:52] Successfully parsed response as JSON
+--------------------------------------------------------------------------------
+[2025-05-22 17:18:52] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 6
+    [question_count] => 12
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 22:26:18] Generating summary for note: test
+Data: Array
+(
+    [note_id] => 5
+    [max_length] => 500
+    [content_length] => 2167
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 22:26:18] Starting generate_summary function
+Data: Array
+(
+    [note_title] => test
+    [max_length] => 500
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 22:26:18] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-22 22:26:18] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 22:26:26] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 22:26:26] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => Un système d'exploitation (OS) est le logiciel principal d'un ordinateur, facilitant le fonctionnem
+)
+
+--------------------------------------------------------------------------------
+[2025-05-22 22:26:26] Successfully generated summary
+Data: Array
+(
+    [note_id] => 5
+    [summary_length] => 494
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 18:33:43] Generating quiz for note: web evolution
+Data: Array
+(
+    [note_id] => 6
+    [num_questions] => 5
+    [difficulty] => medium
+    [content_length] => 2934
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 18:33:43] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => web evolution
+    [num_questions] => 5
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 18:33:43] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-31 18:33:43] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 18:33:48] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 18:33:48] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => [
+    {
+        "question": "Which browser was the most widely used before being overtaken by Netsca
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 18:33:48] Received response, attempting to parse
+--------------------------------------------------------------------------------
+[2025-05-31 18:33:48] Successfully parsed response as JSON
+--------------------------------------------------------------------------------
+[2025-05-31 18:33:48] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 6
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:53:19] Generating quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [note_count] => 5
+    [num_questions] => 10
+    [difficulty] => medium
+    [content_length] => 5328
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:53:19] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => Comprehensive Study Material from All Notes
+    [num_questions] => 10
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:53:19] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-31 19:53:19] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:53:28] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:53:28] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => [
+    {"question": "Which browser was the most widely used in 1993 before being overtaken by Netscap
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:53:28] Received response, attempting to parse
+--------------------------------------------------------------------------------
+[2025-05-31 19:53:28] Successfully parsed response as JSON
+--------------------------------------------------------------------------------
+[2025-05-31 19:53:28] Database error during quiz generation
+Data: Array
+(
+    [error] => SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`study_notes_db`.`quizzes`, CONSTRAINT `quizzes_ibfk_2` FOREIGN KEY (`module_id`) REFERENCES `modules` (`module_id`) ON DELETE CASCADE)
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:58:35] Generating quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [note_count] => 5
+    [num_questions] => 5
+    [difficulty] => easy
+    [content_length] => 5328
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:58:35] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => Comprehensive Study Material from All Notes
+    [num_questions] => 5
+    [difficulty] => easy
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:58:35] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-05-31 19:58:35] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:58:41] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:58:41] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => [
+    {
+        "question": "Which browser was the most used in 1993 before being surpassed by Netsc
+)
+
+--------------------------------------------------------------------------------
+[2025-05-31 19:58:41] Received response, attempting to parse
+--------------------------------------------------------------------------------
+[2025-05-31 19:58:41] Successfully parsed response as JSON
+--------------------------------------------------------------------------------
+[2025-05-31 19:58:41] Successfully generated quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [quiz_id] => 11
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:32] Generating quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [note_count] => 2
+    [num_questions] => 10
+    [difficulty] => hard
+    [content_length] => 5167
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:32] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => Comprehensive Study Material from All Notes
+    [num_questions] => 10
+    [difficulty] => hard
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:32] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:32] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:33] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 429
+    [response] => {"error":{"code":"RateLimitReached","message":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 4090 seconds before retrying.","details":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 4090 seconds before retrying."}}
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:33] Grok 3 API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:33] No response received from AI service
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:33] Using fallback quiz generation as last resort
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:33] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => generate quiz questions for note titled 'Comprehensive Study Material from All Notes'...
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:33] Generated fallback quiz
+Data: Array
+(
+    [question_count] => 5
+    [format] => free-text
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:25:33] Successfully generated quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [quiz_id] => 12
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:46] Generating quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [note_count] => 3
+    [num_questions] => 4
+    [difficulty] => easy
+    [content_length] => 7214
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:46] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => Comprehensive Study Material from All Notes
+    [num_questions] => 4
+    [difficulty] => easy
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:46] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:46] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:48] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 429
+    [response] => {"error":{"code":"RateLimitReached","message":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 3835 seconds before retrying.","details":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 3835 seconds before retrying."}}
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:48] Grok 3 API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:48] No response received from AI service
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:48] Using fallback quiz generation as last resort
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:48] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => generate quiz questions for note titled 'Comprehensive Study Material from All Notes'...
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:48] Generated fallback quiz
+Data: Array
+(
+    [question_count] => 5
+    [format] => free-text
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:29:48] Successfully generated quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [quiz_id] => 13
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:07] Generating quiz for note: php
+Data: Array
+(
+    [note_id] => 7
+    [num_questions] => 5
+    [difficulty] => medium
+    [content_length] => 2019
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:07] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => php
+    [num_questions] => 5
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:07] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:07] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:09] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 429
+    [response] => {"error":{"code":"RateLimitReached","message":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 3634 seconds before retrying.","details":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 3634 seconds before retrying."}}
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:09] Grok 3 API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:09] No response received from AI service
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:09] Using fallback quiz generation as last resort
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:09] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => generate quiz questions for note titled 'php'...
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:09] Generated fallback quiz
+Data: Array
+(
+    [question_count] => 5
+    [format] => free-text
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:33:09] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 7
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:19] Generating quiz for note: php
+Data: Array
+(
+    [note_id] => 7
+    [num_questions] => 5
+    [difficulty] => medium
+    [content_length] => 2019
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:19] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => php
+    [num_questions] => 5
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:19] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:19] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:21] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 429
+    [response] => {"error":{"code":"RateLimitReached","message":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 3262 seconds before retrying.","details":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 3262 seconds before retrying."}}
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:21] Grok 3 API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:21] No response received from AI service
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:21] Using fallback quiz generation as last resort
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:21] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => generate quiz questions for note titled 'php'...
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:21] Generated fallback quiz
+Data: Array
+(
+    [question_count] => 5
+    [format] => free-text
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:39:21] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 7
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:57] Generating quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [note_count] => 3
+    [num_questions] => 10
+    [difficulty] => medium
+    [content_length] => 7214
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:57] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => Comprehensive Study Material from All Notes
+    [num_questions] => 10
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:57] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:57] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:59] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 429
+    [response] => {"error":{"code":"RateLimitReached","message":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 2864 seconds before retrying.","details":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 2864 seconds before retrying."}}
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:59] Grok 3 API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:59] No response received from AI service
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:59] Using fallback quiz generation as last resort
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:59] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => generate quiz questions for note titled 'Comprehensive Study Material from All Notes'...
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:59] Generated fallback quiz
+Data: Array
+(
+    [question_count] => 5
+    [format] => multiple-choice
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:45:59] Successfully generated quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [quiz_id] => 16
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:41] Generating quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [note_count] => 3
+    [num_questions] => 10
+    [difficulty] => medium
+    [content_length] => 7214
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:41] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => Comprehensive Study Material from All Notes
+    [num_questions] => 10
+    [difficulty] => medium
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:41] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:41] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:43] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 429
+    [response] => {"error":{"code":"RateLimitReached","message":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 2520 seconds before retrying.","details":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 2520 seconds before retrying."}}
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:43] Grok 3 API response
+Data: Array
+(
+    [response_type] => boolean
+    [response_preview] => Not a string
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:43] No response received from AI service
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:43] Using fallback quiz generation as last resort
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:43] Generating fallback response for prompt
+Data: Array
+(
+    [prompt_preview] => generate quiz questions for note titled 'Comprehensive Study Material from All Notes'...
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:43] Generated fallback quiz
+Data: Array
+(
+    [question_count] => 5
+    [format] => multiple-choice
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 17:51:43] Successfully generated quiz from all notes
+Data: Array
+(
+    [user_id] => 1
+    [quiz_id] => 17
+    [question_count] => 5
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 18:14:57] Testing AI service
+Data: Array
+(
+    [service] => grok
+    [prompt] => auto generate response
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 18:14:57] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-06-01 18:14:58] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 429
+    [response] => {"error":{"code":"RateLimitReached","message":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 1125 seconds before retrying.","details":"Rate limit of 15 per 86400s exceeded for UserByModelByDay. Please wait 1125 seconds before retrying."}}
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 16:55:29] Testing AI service
+Data: Array
+(
+    [service] => grok
+    [prompt] => hi
+
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 16:55:29] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 16:55:33] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 401
+    [response] => Unauthorized
+
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 16:58:37] Testing AI service
+Data: Array
+(
+    [service] => grok
+    [prompt] => hi
+
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 16:58:37] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 16:58:40] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 401
+    [response] => Unauthorized
+
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 16:58:51] Testing AI service
+Data: Array
+(
+    [service] => grok
+    [prompt] => hello ai
+
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 16:58:51] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 16:58:55] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:01:56] Generating quiz for note: Exam
+Data: Array
+(
+    [note_id] => 5
+    [num_questions] => 20
+    [difficulty] => hard
+    [content_length] => 1421
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:01:56] Starting generate_quiz function (MCQ format)
+Data: Array
+(
+    [note_title] => Exam
+    [num_questions] => 20
+    [difficulty] => hard
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:01:56] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-07-06 17:01:56] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:02:12] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:02:12] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => [
+    {"question": "Which of the following is NOT considered a fundamental building block of front-e
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:02:12] Received response, attempting to parse
+--------------------------------------------------------------------------------
+[2025-07-06 17:02:12] Successfully parsed response as JSON
+--------------------------------------------------------------------------------
+[2025-07-06 17:02:12] Successfully generated quiz questions
+Data: Array
+(
+    [note_id] => 5
+    [question_count] => 20
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:05:37] Generating summary for note: Exam
+Data: Array
+(
+    [note_id] => 5
+    [max_length] => 250
+    [content_length] => 1421
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:05:37] Starting generate_summary function
+Data: Array
+(
+    [note_title] => Exam
+    [max_length] => 250
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:05:37] Calling AI service: grok
+--------------------------------------------------------------------------------
+[2025-07-06 17:05:37] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:05:40] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:05:40] Grok 3 API response
+Data: Array
+(
+    [response_type] => string
+    [response_preview] => Web techniques involve HTML, CSS, and JavaScript for front-end, and PHP, Python, Node.js for back-en
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:05:40] Successfully generated summary
+Data: Array
+(
+    [note_id] => 5
+    [summary_length] => 249
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:11:15] Testing AI service
+Data: Array
+(
+    [service] => grok
+    [prompt] => chi haja
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:11:15] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:11:19] Successfully received Grok 3 API response
+Data: Array
+(
+    [status_code] => 200
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:11:19] Testing AI service
+Data: Array
+(
+    [service] => grok
+    [prompt] => chi haja
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:11:19] Sending request to Grok 3 API
+Data: Array
+(
+    [endpoint] => https://models.github.ai/inference
+    [model] => xai/grok-3
+)
+
+--------------------------------------------------------------------------------
+[2025-07-06 17:11:22] Grok 3 API Error
+Data: Array
+(
+    [status_code] => 429
+    [response] => {"error":{"code":"RateLimitReached","message":"Rate limit of 1 per 60s exceeded for UserByModelByMinute. Please wait 56 seconds before retrying.","details":"Rate limit of 1 per 60s exceeded for UserByModelByMinute. Please wait 56 seconds before retrying."}}
+)
+
+--------------------------------------------------------------------------------
